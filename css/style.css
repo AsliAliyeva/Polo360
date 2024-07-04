@@ -1,0 +1,182 @@
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+body { text-align: center;}
+header { 
+    padding: 10px 0 30px 0;
+    background: linear-gradient( #d5d5d5 , #fff , #fff , #fff);
+}
+#menu {padding: 20px;}
+#logo { margin: 10px 0; padding: 37px 15px 24px 15px;}
+#menu li a { 
+    font: bold .9rem  Georgia , serif;
+    color: #666;
+    display: block;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+#menu li {
+    font: .7em  Tahoma, sans-serif;
+    color: #b7b7b7;
+}
+main {
+    background: #fff url('../img/mainbg.jpg') repeat-x;
+    padding: 22px 0 0 0;
+}
+#slider {
+    background: url('../img/mainp.jpg') center/cover;
+    height: 343px;
+    border-radius: 7px ;
+    border: 1px solid white;
+}
+h1 {
+    font: bold 1.5em Georgia;
+    color: #000;
+    text-align: center;
+    padding: 1em;
+}
+h2 {
+    font: 1.3em Georgia , serif;
+    color: #11719e;
+    text-align: center;
+}
+h3 {
+    font: 1.1em Georgia;
+    color: #444;
+    border-bottom: 1px dotted #d3d3d3;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+h4 {
+    font: .8em Helvetica , sans-serif;
+    color: #8c8c8c;
+    text-align: center;
+}
+h5 {
+    font: bold 1.1em  "Gill Sans" , sans-serif;
+    color: #444;
+    border-bottom: 1px dotted #d3d3d3;
+    text-align: center;
+}
+hr { 
+    background: #e5e5e5;
+    height: 1px;
+    margin: 10px 0 ;
+}
+p { margin: 7px 0;}
+input {
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    width: 100%;
+    height: 37px;
+    margin: 10px 0;
+}
+textarea {
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    width: 100%;
+    height: 130px ;
+
+}
+footer {
+    background-color: #333 ;
+    border-top: 10px solid #4c4c4c;
+    height: 175px;
+}
+.txt {
+    /* font: solid .8em Helvetica ,  sans-serif; */
+    font-size:.8em ;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #444;
+    margin: 10px 0;
+}
+.btn {
+    font: .8em Helvetica ;
+    color: #016999;
+    display: inline-block;
+    margin: 20px 0 50px 0;
+    width: 162px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    padding: 10px  13px;
+    background: linear-gradient(to right, #e8e8e8, #f7f7f7, #e8e8e8, #eee);
+}
+.col3 a span { margin-left: 50px;}
+.col3p {
+    font: .8em/1.2em Helvetica;
+    color: #3e3e3e;
+}
+.imgMain {
+    width: 100%;
+    height: 190px;
+    margin: 12px 0;
+    padding: 6px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+}
+.mLogo {
+    width: 50px;
+    height: 40px;
+    margin: 10px 10px 20px 0;
+}
+.row { padding: 40px 0;}
+.col3 {padding: 0  21px;}
+.btn4 {
+    width: 160px;
+    padding: 8px 10px;
+    margin: 10px 0 24px 0 ;
+    color: white;
+    border: 1px solid #004a80;
+    border-radius: 3px;
+    background: linear-gradient(#4477ac , #4c84bd , #4275a6 , #416e9c) ;
+}
+.ls {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    float: left;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius:  4px ;
+    border: 1px solid #cfcfcf;
+
+}
+.fnsh {
+    height:70px ;
+    width: 100%;
+    margin: 10px 0;
+}
+.fnsh p {
+    margin: 5px;
+    font:  .8em Helvetica;
+    color: #444;
+}
+.fp {
+    font:  .7em solid  Helvetica;
+    color: #999;
+}
+    
+@media only screen and (min-width: 768px) {
+    body { text-align: left;}
+    #menu { float: right;}
+    #menu li  { 
+        display: inline-block; 
+        border-left: 1px dashed #d6d6d6 ;
+        padding: 0 8px 0 10px;
+    }
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .col3 {     
+        text-align: left;
+        width: 33%;
+        display: inline-block;
+    }
+    .imgMain {width: 300px;}
+     h2 , h3 , h4 , h5 {text-align: left;}
+}
